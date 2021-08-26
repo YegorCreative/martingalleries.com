@@ -124,4 +124,15 @@ h1{
       display: flex;
       flex-flow: wrap row;
   }
-  
+  .containerLeft, .containerRight{
+      width: 100%;
+      box-sizing: border-box;
+  }
+  .containerRight{
+      display: flex;
+      flex-flow: wrap column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 30px;
+  }
