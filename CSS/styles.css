@@ -17,6 +17,13 @@ body {
     /*font-family: 'Righteous', cursive;*/
     font-family: 'Roboto', sans-serif;
 }
+/*
+#99adbf	(153,173,191)
+#ec756f	(236,117,111)
+#d5d3bf	(213,211,191)
+#89ad9f	(137,173,159)
+#e7ae7e	(231,174,126)
+*/
 
 #mainContainer{
     width: 100%;
@@ -25,7 +32,7 @@ body {
 }
 
 #navbar {
-    background-color: #333; /* Black background color */
+    background-color: #e7ae7e	; /* Black background color */
     position: fixed; /* Make it stick/fixed */
     top: 0; /* Stay on top */
     width: 100%; /* Full width */
@@ -34,15 +41,24 @@ body {
   
   /* Style the navbar links */
   #navbar a {
-    float: left;
+    float: right;
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 15px;
     text-decoration: none;
+    font-family: 'Righteous', cursive;
   }
   
   #navbar a:hover {
-    background-color: #ddd;
+    background-color: #d5d3bf;
     color: black;
+  }
+  .firstText{
+      width: 100%;
+      margin-top: 50px;
+      text-align: center;
+      background-color: aquamarine;
+      padding: 7px;
+      font-family: 'Righteous', cursive;
   }
