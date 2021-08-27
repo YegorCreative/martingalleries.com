@@ -158,6 +158,7 @@ h1{
   }
   .display-container{
       width: 100%;
+      height: 50vh;
       box-sizing: border-box;
       padding: 30px;
       background-color: #e7ae7e;
