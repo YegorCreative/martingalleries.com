@@ -5,14 +5,28 @@
         overflow: hidden;
         
     }
-    .mySlides{
-        width: 60%;
-      height: auto;
+    .display-container{
+        flex-flow: wrap row;
+    }
+    .videoS {
+        width: 50%;
+        
+    }
+    .videoS iframe{
+        width: 100%;
+        height: 315px;
     }
 }
 @media screen and (min-width: 600px){
     .creates{
         max-width: 550px;
+    }
+    
+}
+@media screen and (min-width: 426px){
+    .videoS iframe{
+        width: 90%;
+        height: 225px;
     }
     
 }

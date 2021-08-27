@@ -158,31 +158,43 @@ h1{
   }
   .display-container{
       width: 100%;
-      height: 50vh;
       box-sizing: border-box;
       padding: 30px;
-      background-color: #e7ae7e;
-      position: relative;
-  }
-  .mySlides{
-      width: 100%;
-    height: auto;
-    margin: 0 auto;
-  }
-  .wbutton{
-      width: 50px;
-      height: 50px;
-      font-size: 25px;
-      border-radius: 25%;
       background-color: white;
-      border: solid 2px rgb(81, 172, 62);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 25px;
   }
-  .display-left{
-      position: absolute;
-      top: 37%;
+  .videoS iframe{
+      width:100%;
   }
-  .display-right{
-      right: 30px;
-      position: absolute;
-      top: 37%;
+  
+  .videoS{
+      width: 100%;
+      box-sizing: border-box;
+      display: flex;
+        padding: 25px;
+        align-items: center;
+        justify-content: center;
+  }
+  .design{
+      width: 100%;
+      height: 500px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: wrap column;
+      padding: 20px;
+      text-align: center;
+      background-image: url(../Assets/pottery2.png);
+      background-size: cover;
+      background-position: center;
+      color: white;
+  }
+  .design h2{
+      max-width: 750px;
+
   }
