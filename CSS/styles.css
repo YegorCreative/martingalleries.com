@@ -22,7 +22,7 @@ body {
 }
 h1{
     font-family: 'Righteous', cursive; 
-    text-shadow:5px 5px 10px #e7ae7e;
+    text-shadow:5px 5px 10px #dbbfa8;
 
 }
 /*
@@ -66,7 +66,7 @@ h1{
       width: 100%;
       margin-top: 50px;
       text-align: center;
-      background-color: rgb(160, 160, 160);
+      background-color: #ec756f;
       padding: 7px;
       font-family: 'Righteous', cursive;
       color: white;
@@ -136,4 +136,27 @@ h1{
       align-items: center;
       text-align: center;
       padding: 30px;
+  }
+  .containerRight p{
+      font-size: 20px;
+      padding: 25px;
+  }
+  .containerRight h2{
+      font-size: 25px;
+      font-family: 'Dancing Script', cursive;
+      font-weight: 700;
+  }
+  .gallery{
+      width: 120px;
+      text-decoration: none;
+      background-color: #aa784f;
+      color: white;
+      padding: 7px;
+  }
+  .gallery:hover{
+      opacity: 0.7;
+  }
+  .display-container, .mySlides{
+      width: 100%;
+      box-sizing: border-box;
   }
