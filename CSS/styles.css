@@ -39,6 +39,8 @@ h1{
     position: inherit;
 }
 
+
+
 #navbar {
     background-color: #e7ae7e	; /* Black background color */
     position: fixed; /* Make it stick/fixed */
@@ -87,11 +89,10 @@ h1{
     padding-right: 10px;
     padding-left: 10px;
 }
-#firstContainer{
+#firstContainer, #firstContainerAbout{
     width: 100%;
     height: 500px;
     box-sizing: border-box;
-    background-image: url(../Assets/unfinished-jug.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -101,6 +102,23 @@ h1{
     flex-flow: wrap column;
     text-align: center;
 }
+#firstContainer{
+    background-image: url(../Assets/unfinished-jug.png);
+}
+#firstContainerAbout{
+    background-image: url(../Assets/yellowClay.png);
+}
+.firstHeader{
+    font-weight: 800;
+    font-size: 35px;
+}
+.secondHeader{
+    font-size: 70px;
+}
+.thirdHeader{
+    font-size: 40px;
+}
+
 .creates{
     padding: 25px;
     text-shadow:5px 5px 10px #aa784f;
@@ -184,7 +202,7 @@ h1{
         align-items: center;
         justify-content: center;
   }
-  .design, .design2, .design3{
+  .design, .design2, .design3, .design4{
       width: 100%;
       height: 500px;
       box-sizing: border-box;
@@ -208,6 +226,10 @@ h1{
   .design3{
     background-image: url(../Assets/clays.png);
   }
+  .design4{
+    background-image: url(../Assets/whiteClay.png);
+    background-position: top;
+  }
   .design h2, .design2 h2{
       max-width: 750px;
 
@@ -216,7 +238,7 @@ h1{
       font-size: 45px;
       font-family: 'Rampart One', cursive;
   }
-  .design3 h1{
+  .design3 h1, .design4 h1{
       font-size: 30px;
       text-shadow:5px 5px 10px #9e8977;
   }
@@ -296,4 +318,43 @@ h1{
       color: white;
       font-size: 18px;
       font-family: 'Righteous', cursive;
+  }
+
+  /*About*/
+  .aboutUs{
+      width: 100%;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: wrap column;
+  }
+  .aboutUs h2{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+  }
+  .aboutUs p{
+      max-width: 600px;
+      padding: 25px;
+      font-size: 17px;
+  }
+  .aboutUs h1{
+      font-size: 50px;
+      text-shadow:5px 5px 5px #b49d88;
+  }
+  #welder{
+      width: 100%;
+      height: 550px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      flex-flow: wrap column;
+      background-size: cover;
+      background-position: center;
+      background-image: url(../Assets/welding.png);
+      color: white;
+      text-align: center;
+  }
+  #welder h1{
+    text-shadow:5px 5px 5px #414697;
   }
