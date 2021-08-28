@@ -64,7 +64,8 @@ h1{
   }
   .firstText{
       width: 100%;
-      margin-top: 50px;
+      height: 195px;
+      margin-top: 0;
       text-align: center;
       background-color: #836043;
       padding: 7px;
@@ -72,16 +73,20 @@ h1{
       color: white;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-end;
       flex-flow: wrap row;
   }
   .firstText a{
+      margin-top: 50px;
       padding: 5px;
   }
   .firstText a:hover{
     opacity: 0.8;
   }
-
+.firstText p {
+    padding-right: 10px;
+    padding-left: 10px;
+}
 #firstContainer{
     width: 100%;
     height: 500px;
@@ -223,13 +228,15 @@ h1{
   }
   
   .gallery-cell {
-    width: 64%;
+      width: 60%;
+    /*width: 64%;*/
     height: 400px;
     margin-right: 10px;
     background: #e7ae7e;
     counter-increment: gallery-cell;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   
   /* cell number */
