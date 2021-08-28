@@ -365,3 +365,16 @@ h1{
   #welder h1{
     text-shadow:5px 5px 5px #414697;
   }
+
+  #gallerySS{
+      width: 100%;
+      box-sizing: border-box;
+      display: flex;
+      flex-flow: wrap row;
+      padding: 15px;
+      justify-content: center;
+      align-items: center;
+  }
+  .pictureM{
+      margin: 10px;
+  }
