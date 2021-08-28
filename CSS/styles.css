@@ -228,7 +228,7 @@ h1{
   }
   
   .gallery-cell {
-      width: 60%;
+      width: 100%;
     /*width: 64%;*/
     height: 400px;
     margin-right: 10px;

@@ -28,6 +28,9 @@
     .firstText{
         height: 125px;
     }
+    .gallery-cell {
+        width: 64%;
+    }
 }
 @media screen and (min-width: 600px){
     .creates{
