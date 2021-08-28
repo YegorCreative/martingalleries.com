@@ -66,7 +66,7 @@ h1{
       width: 100%;
       margin-top: 50px;
       text-align: center;
-      background-color: #ec756f;
+      background-color: #836043;
       padding: 7px;
       font-family: 'Righteous', cursive;
       color: white;
@@ -127,7 +127,7 @@ h1{
   .containerLeft, .containerRight{
       width: 100%;
       box-sizing: border-box;
-      padding: 25px;
+      padding: 0;
   }
   .containerRight{
       display: flex;
@@ -179,7 +179,7 @@ h1{
         align-items: center;
         justify-content: center;
   }
-  .design{
+  .design, .design2, .design3{
       width: 100%;
       height: 500px;
       box-sizing: border-box;
@@ -189,12 +189,98 @@ h1{
       flex-flow: wrap column;
       padding: 20px;
       text-align: center;
-      background-image: url(../Assets/pottery2.png);
+      
       background-size: cover;
       background-position: center;
       color: white;
   }
-  .design h2{
+  .design{
+    background-image: url(../Assets/pottery2.png);
+  }
+  .design2{
+    background-image: url(../Assets/potteryHands.png);
+  }
+  .design3{
+    background-image: url(../Assets/clays.png);
+  }
+  .design h2, .design2 h2{
       max-width: 750px;
 
+  }
+  .design2 h2{
+      font-size: 45px;
+      font-family: 'Rampart One', cursive;
+  }
+  .design3 h1{
+      font-size: 30px;
+      text-shadow:5px 5px 10px #9e8977;
+  }
+
+  /*carusel*/
+  
+.gallery2 {
+    background: #EEE;
+  }
+  
+  .gallery-cell {
+    width: 64%;
+    height: 400px;
+    margin-right: 10px;
+    background: #e7ae7e;
+    counter-increment: gallery-cell;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 0px;
+    font-size: 0px;
+    color: white;
+  }
+  /* footer */
+  .footerS, .twentyP{
+      width: 100% ;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding:15px;
+      background-color: #9e8977;
+      color: white;
+  }
+ 
+  .twentyP{
+      align-items: center;
+  }
+  .footerS{
+      margin-top: 40px;
+      text-align: center;
+  }
+  .twntyThree{
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+  }
+  .twntyThree a{
+      margin: 7px;
+  }
+  .twentyP a{
+      text-decoration: none;
+      font-weight: 200;
+      font-family: 'Righteous', cursive;
+      color: white;
+  }
+  
+  .lastQuote{
+      width: 100%;
+      padding: 15px;
+      text-align: center;
+      background-color: #836043;
+      color: white;
+      font-size: 16px;
   }
