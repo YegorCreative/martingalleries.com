@@ -114,6 +114,14 @@ h1{
 #firstContainerContact{
     background-image: url(../Assets/conTacT.png);
 }
+.GoTexAns{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
 .firstHeader{
     font-weight: 800;
     font-size: 35px;
