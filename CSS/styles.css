@@ -393,3 +393,13 @@ h1{
   .pictureM{
       margin: 10px;
   }
+  .events{
+      width: 100%;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+  }
+  .event{
+      max-width: 550px ;
+      padding: 15px;
+  }
