@@ -27,6 +27,16 @@
         height: 959px;
         background-color: #eecdaf;
     }
+     .upcomingEvent{
+        flex-flow: row wrap;
+     }
+    .events{
+        width: 30%;
+    }
+    .event{
+        max-width: 450px ;
+        
+    }
 }
 @media screen and (min-width: 640px){
     .firstText{
