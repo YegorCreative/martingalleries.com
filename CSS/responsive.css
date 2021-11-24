@@ -37,6 +37,12 @@
         max-width: 450px ;
         
     }
+    .newArt img:hover{
+        transform: scale(1.5);
+    }
+    .pictureM:hover{
+        transform: scale(1.5);
+      }
 }
 @media screen and (min-width: 640px){
     .firstText{

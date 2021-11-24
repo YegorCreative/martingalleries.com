@@ -392,7 +392,17 @@ h1{
   }
   .pictureM{
       margin: 10px;
+      width: 180px;
+      border-radius: 25%;
+      box-sizing: border-box;
+      box-shadow: 
+      0 0 0 5px #b49d88,
+      0 0 0 10px #eecdaf,
+      0 0 0 15px #7a695a;
+      margin: 20px;
+      transition: all .2s ease-in-out;
   }
+  
   .events{
       width: 100%;
       box-sizing: border-box;
@@ -419,6 +429,7 @@ h1{
       padding: 25px;
   }
   .newArt img{
+      width: 130px;
       border-radius: 25%;
       box-sizing: border-box;
       box-shadow: 
@@ -428,7 +439,4 @@ h1{
       margin: 20px;
       transition: all .2s ease-in-out;
   }
-  .newArt img:hover{
-      opacity: .9;
-      transform: scale(1.02);
-  }
+
